@@ -1,4 +1,4 @@
-//ARRAY é um grupo de valores geralmente relacionados . Servem para guardarmos diferentes valores em uma única variável.
+//ARRAY it's a group of values generally related. Serve to store different values ​​in a single variable.
 
 
 var videoGames = ['Switch', 'PS4', 'Xbox',];
@@ -8,26 +8,26 @@ videoGames[1]; //PS4
 
 var videoGames = ['Switch', 'PS4', 'XBox'];
 
-videoGames.pop(); // Remove o último item e retorna ele
-videoGames.push('3DS'); // Adiciona ao final da array
+videoGames.pop(); // Remove the last item and return it 
+videoGames.push('3DS'); //  Add in end of array
 videoGames.length; // 3
 
-for (var numero = 0; numero < 10; numero++) {
-  console.log(numero);
+for (var number = 0; number < 10; number++) {
+  console.log(number);
 }
-// Retorna de 0 a 9 no console
-//O for loop possui 3 partes, início, condição e incremento
+// Return 0 to 9 on consol
+// The for loop has 3 parts, start, condition and increment
 
 // var i = 10;
 // while (i < 20) {
 //   console.log(i);
 //   i++;
 // }
-// Retorna de 0 a 9 no console
+// Return 0 to 9 on consol
 
 var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
 videoGames.forEach(function(item) {
   console.log(item);
 });
-// O argumento item será atribuído dinamicamente
-// Podemos passar os seguintes parâmetros item, index(index do item) e array
+// item argument will be dynamically assigned
+// We can pass the following parameters item, index and array
