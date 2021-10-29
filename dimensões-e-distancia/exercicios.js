@@ -45,4 +45,4 @@ const mobile = window.matchMedia('(max-width: 600px)')
 if(mobile.matches){
   menu.classList.add('menu-mobile')
 }
-  
+
