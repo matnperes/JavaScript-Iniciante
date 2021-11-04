@@ -1,4 +1,4 @@
-// Propriedades que retornam uma string contendo o html ou texto. É possível atribuir um novo valor para as mesmas element.innerText = 'Novo Texto'.
+// Proprieda 
 
 const menu = document.querySelector('.menu');
 
@@ -7,7 +7,7 @@ menu.innerHTML; // html interno
 menu.innerText; // texto, sem tags
 
 menu.innerText = '<p>Texto</p>'; // a tag vai como texto
-menu.innerHTML = '<p>Texto</p>'; // a tag é renderizada
+menu.innerHTML = '<p>Texto</p>'; // a tag é renderizada 
 
 
 const lista = document.querySelector('.animais-lista');
@@ -25,7 +25,7 @@ lista.querySelectorAll('li'); // todas as LI's
 lista.querySelector('li:last-child'); // último filho
 
 
-// Element's represetam um elemento html, ou seja, uma tag. Node representa um nó, e pode ser um elemento (Element), texto, comentário, quebra de linha e mais.
+// Element's represetam um elemento html, ou seja, uma tag. Node representa um nó, e pode  ser um elemento (Element), texto, comentário, quebra de linha e mais.
 
 const lista = document.querySelector('.animais-lista');
 
